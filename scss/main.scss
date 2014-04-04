@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+.input-form {
+	div {
+		width: 400px;
+		margin: 5px 5%;
+		padding: 10px;
+		text-align: right;
+		white-space: nowrap;
+	}
+	label {
+		margin: 0 5px;
+	}
+	input {
+		/*position: absolute;*/
+		border: 1px solid grey;
+		border-radius: 3px;
+		height: 25px;
+		width: 230px;
+	}
+	input[name="state"] {
+		width: 35px;
+	}
+	input[name="city"] {
+		width: 140px;
+	}
+	input[type="checkbox"] {
+		width: 30px;
+	}
+}
